@@ -1,0 +1,365 @@
+html{
+    font-size: 100%;
+    font-family: 'Anuphan', sans-serif;
+}
+header{
+    top: 0;
+    position: fixed;
+    width: 98.9%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(53,58,64);
+    color: #FFF;
+}
+#cac{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+#cac img{
+    width: 5rem;
+}
+#navegador{
+    padding-right: 0.5rem;
+    margin-left: 1rem;
+}
+#navegador a{
+    color: rgb(171, 168, 184);
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+
+}
+/*VERRR!!!*/
+#navegador:last-child{
+    color: green;
+}
+.laConf{
+    background: linear-gradient(to bottom,#48484826, #242424c2,#48484826), url("../Assets/Img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30rem;
+    color: #FFF;
+}
+#textoConf{
+    width: 50%;
+    padding-left: 45%;
+    padding-top: 20%;
+    padding-right: 5%;
+    text-align: end;
+    color: #FFF;
+}
+#textoConf h3{
+    width:90%;
+    padding-right: 1rem;
+}
+#textoConf p{
+    width: 90%;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+#botonesConf{
+    width: 90%;
+    padding-right: 1rem;
+}
+#botonesConf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+#serOradorB{
+    border-style: solid;
+    border-width: 0.5px ;
+    border-color: #FFF;
+    border-radius: 0.3rem;
+    margin-right: 2rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+#comprarB{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: #1bbb21c2;
+    border-radius: 0.3rem;
+}
+#botonesConf .boton a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.losOr{
+    padding-top: 3rem;
+    font-family: 'Anuphan', sans-serif;
+}
+.titulo{
+    margin-left: auto;
+    text-align: center;
+}
+.titulo p{
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+.titulo h3{
+    margin-top: 0;
+    font-weight: 550;
+}
+.oradores.cartas{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 0;
+}
+.oradores .carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 30%;
+    height:28rem;
+    border: #c3c4c3c2;
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-width: 0.1rem;
+}
+.oradores .carta img{
+    width:100%;
+    height: 50%;
+}
+.lenguajes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.lenguajes .js{
+    background-color: #fbdb26f8;
+    margin-right: 0.5rem;
+    padding: 1.5% 2% 1.5% 2%;
+    border-radius: 0.5rem;
+}
+.lenguajes .react{
+    background-color: #26c2fbf8;
+    color: #FFF;
+    margin-right: 0.5rem;
+    padding: 1.5% 2% 1.5% 2%;
+    border-radius: 0.5rem;
+}
+.lenguajes .negocios{
+    background-color: #b5c9d0f8;
+    color: #FFF;
+    margin-right: 0.5rem;
+    padding: 1.5% 2% 1.5% 2%;
+    border-radius: 0.5rem;
+}
+.lenguajes .startups{
+    background-color: #f83636f8;
+    color: #FFF;
+    margin-right: 0.5rem;
+    padding: 1.5% 2% 1.5% 2%;
+    border-radius: 0.5rem;
+}
+.carta .nombre{
+    padding-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.carta .desc{
+    justify-self: flex-end;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+    color: #8e8d8d;
+}
+.elLyF{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+}
+.lugaryfecha{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.lugaryfecha#img{
+    background-image: url("../Assets/Img/hawaii3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.lugaryfecha#textolyf{
+    background-color: rgb(41,41,41);
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.lugaryfecha#textolyf h3{
+    margin-bottom: 0;
+}
+.lugaryfecha#textolyf p{
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    color: rgb(219, 218, 224);
+    margin-bottom: 1.3rem;
+    width: 90%;
+    text-align: left;
+}
+.lugaryfecha#textolyf a{
+    font-size: 0.7rem;
+    color: #fff;
+    text-decoration: none;
+    color: rgb(219, 218, 224);
+    border-style: solid;
+    border-color:rgb(219, 218, 224);
+    border-radius: 0.2rem;
+    border-width: 0.1rem;
+    padding: 1.5% 1.5% 1.8% 1.8%;
+}
+.convOr{
+    padding-top: 3rem;
+}
+.convOr .titulo h3{
+    margin-bottom: 0.3rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    width: max-content;
+}
+.formulario p{
+    font-size: 0.8rem;
+}
+.formulario #nombres{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.formulario .inputNA{
+    border-radius: 0.3rem;
+    border-color: rgb(219, 218, 224);
+    border-width: 0.15rem;
+    border-style:solid ;
+    padding: 0.2rem 0rem 0.2rem 0.8rem;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+.formulario .inputNA.nombre{
+    margin-right: 0.4rem;
+}
+.formulario .textArea{
+    font-family: 'Anuphan';
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    border-color: rgb(219, 218, 224);
+    border-width: 0.15rem;
+    border-style:solid ;
+    padding: 0.5rem 0rem 0.2rem 0.8rem;
+    width: 35rem;
+    height: 6rem;
+}
+.formulario #recordar{
+    align-self: flex-start;
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+    color: rgb(139, 139, 140);
+}
+.formSubmit{
+    width:100%;
+    padding: 0.5rem;
+    color: #FFF;
+    border-radius: 0.3rem;
+    border-color: #46cd4aef;
+    border-style: solid;
+    background-color: #46cd4aef;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
+}
+footer{
+    background:linear-gradient( to right, #1d3947,#1d4962, #1e5372);
+    padding: 1rem 1.3rem 1rem 1.5rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin:auto
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 568px) and (max-width:767px) {
+    #cac{
+        padding-left: 1rem;
+        font-size: smaller;
+    }
+    #cac img{
+        width: 3rem;
+    }
+    #navegador{
+        padding-right: 0.5rem;
+        margin-left: 1rem;
+    }
+    #navegador a{
+        font-size: 0.7rem;
+        padding-left: 0.5rem;
+    }
+    .oradores.cartas{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    .oradores .carta{
+        width: 60%;
+        height: 80%;
+        margin-bottom: 0.6rem;
+    }
+    .oradores .carta img{
+        width:100%;
+        height: 50%;
+    }
+    .elLyF{
+        display: flex;
+        flex-direction: column;
+        height: 30rem;
+     }
+     .lugaryfecha#img{
+        height: 20rem;
+        width: 100%;
+        background-position: top;
+     }
+    .lugaryfecha#textolyf {
+        height: fit-content;
+    }
+    .lugaryfecha#textolyf p{
+        font-size: 0.9rem;
+    }
+    .lugaryfecha#textolyf a{
+        font-size: 0.9rem;
+    }
+    .footer a{
+        font-size: 0.6rem;
+    }
+}
