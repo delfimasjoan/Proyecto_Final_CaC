@@ -307,7 +307,7 @@ footer{
     font-size: 0.8rem;
 }
 
-@media screen and (min-width: 568px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     #cac{
         padding-left: 1rem;
         font-size: smaller;
@@ -341,17 +341,12 @@ footer{
         height: 50%;
     }
     .elLyF{
-        display: flex;
-        flex-direction: column;
-        height: 30rem;
-     }
-     .lugaryfecha#img{
-        height: 20rem;
-        width: 100%;
-        background-position: top;
-     }
-    .lugaryfecha#textolyf {
-        height: fit-content;
+        display: block;
+        background-image: linear-gradient(to bottom,#48484826, #242424c2,#48484826),url("../Assets/Img/hawaii3.jpg");
+        background-size: cover;
+    }
+    .lugaryfecha#textolyf{
+        background-color: transparent;
     }
     .lugaryfecha#textolyf p{
         font-size: 0.9rem;
