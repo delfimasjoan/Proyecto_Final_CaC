@@ -30,11 +30,6 @@ header{
     text-decoration: none;
     font-size: 0.8rem;
     padding-left: 0.5rem;
-
-}
-/*VERRR!!!*/
-#navegador:last-child{
-    color: green;
 }
 .laConf{
     background: linear-gradient(to bottom,#48484826, #242424c2,#48484826), url("../Assets/Img/ba1.jpg");
@@ -320,8 +315,19 @@ footer{
         margin-left: 1rem;
     }
     #navegador a{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         padding-left: 0.5rem;
+    }
+    #textoConf{
+        width: 50%;
+        padding-left: 5%;
+        padding-top: 20%;
+        padding-right: 5%;
+        text-align: center;
+        color: #FFF;
+    }
+    #serOradorB{
+        width: fit-content;
     }
     .oradores.cartas{
         height: fit-content;
@@ -357,12 +363,16 @@ footer{
     .formulario{
     width: 100%;
     }
+    .formulario .textArea{
+        width: 20rem;
+    }
     .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     }
     .footer a{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
+        padding-left: 0.5rem;
     }
 }
