@@ -320,7 +320,7 @@ footer{
         margin-left: 1rem;
     }
     #navegador a{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         padding-left: 0.5rem;
     }
     .oradores.cartas{
@@ -354,7 +354,15 @@ footer{
     .lugaryfecha#textolyf a{
         font-size: 0.9rem;
     }
+    .formulario{
+    width: 100%;
+    }
+    .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
     .footer a{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 }
